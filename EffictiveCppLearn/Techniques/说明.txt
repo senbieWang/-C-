@@ -1,0 +1,5 @@
+本项目主要记录：techniques,Idioms,pattern (more effective c++)
+条款25：  将constructor和non-member functions 虚化 （并非真正的虚化，变相的虚化）。
+
+
+条款26
