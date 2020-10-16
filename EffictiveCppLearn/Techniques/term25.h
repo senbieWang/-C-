@@ -14,6 +14,7 @@ public:
 	void  fun() {}
 	virtual TextBlock* clone() const  //virtual  copy constructor
 	{
+		std::cout << "TextBlock clone" << std::endl;
 		return new TextBlock(*this);
 	}
 };
@@ -25,6 +26,7 @@ public:
 	void  fun() {}
 	virtual Griphic* clone() const
 	{
+		std::cout << "Griphic clone" << std::endl;
 		return new Griphic(*this);
 	}
 

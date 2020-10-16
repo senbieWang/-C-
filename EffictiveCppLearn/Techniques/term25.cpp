@@ -24,7 +24,18 @@ NewLetter::NewLetter(const NewLetter& rhs)
 //由于产生新对象，所以行为放入  constructor,由于能产生不同类型的对象， 可以视为 virtual constructor.
 NLComponent* NewLetter::readComponent(std::istream& str) 
 {
-	//if str == graph  new Griphic
-	//if str == textblock  new TextBlock
+	int type = 0;
+	str >> type;
+	if (type == 1)
+	{
+		return new TextBlock();
+	}
+
+	if (2 == type)
+	{
+		return new Griphic();
+	}
 	return nullptr;
 }
+
+
