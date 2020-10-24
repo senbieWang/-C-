@@ -2,4 +2,9 @@
 条款25：  将constructor和non-member functions 虚化 （并非真正的虚化，变相的虚化）。
 
 
-条款26
+条款26 限制某个对象长(单例对象、不可集成对象、引用计数)
+
+
+
+
+学习  std::atomic
