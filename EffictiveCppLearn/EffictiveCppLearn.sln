@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EffictiveCppLearn", "Effict
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Techniques", "Techniques\Techniques.vcxproj", "{523663BC-443B-49B3-9AC6-D36D830671AA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fundamental", "fundamental\fundamental.vcxproj", "{E47C8340-0D35-4B6B-AF80-959B595029EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{523663BC-443B-49B3-9AC6-D36D830671AA}.Release|x64.Build.0 = Release|x64
 		{523663BC-443B-49B3-9AC6-D36D830671AA}.Release|x86.ActiveCfg = Release|Win32
 		{523663BC-443B-49B3-9AC6-D36D830671AA}.Release|x86.Build.0 = Release|Win32
+		{E47C8340-0D35-4B6B-AF80-959B595029EB}.Debug|x64.ActiveCfg = Debug|x64
+		{E47C8340-0D35-4B6B-AF80-959B595029EB}.Debug|x64.Build.0 = Debug|x64
+		{E47C8340-0D35-4B6B-AF80-959B595029EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{E47C8340-0D35-4B6B-AF80-959B595029EB}.Debug|x86.Build.0 = Debug|Win32
+		{E47C8340-0D35-4B6B-AF80-959B595029EB}.Release|x64.ActiveCfg = Release|x64
+		{E47C8340-0D35-4B6B-AF80-959B595029EB}.Release|x64.Build.0 = Release|x64
+		{E47C8340-0D35-4B6B-AF80-959B595029EB}.Release|x86.ActiveCfg = Release|Win32
+		{E47C8340-0D35-4B6B-AF80-959B595029EB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,11 +1,6 @@
-本项目主要记录：techniques,Idioms,pattern (more effective c++)
+项目说明：本项目是关于more effective C++ 技术部分的学习案例，包括（条框25、26、 ）
 条款25：  将constructor和non-member functions 虚化 （并非真正的虚化，变相的虚化）。
-
 
 条款26: 限制某个class产生的对象 (单例对象、不可集成对象、引用计数)
      把构造函数定义为私有的，此类将不能被继承。可以定义公有的create类来创建该对象，调用方可以通过 智能指针来引用该对象，
 	 单例类不能被继承。
-
-
-
-学习  std::atomic
