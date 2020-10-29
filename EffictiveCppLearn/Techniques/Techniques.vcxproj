@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClCompile Include="stdafx.h" />
     <ClCompile Include="Techniques.cpp" />
+    <ClCompile Include="term26.cpp" />
     <ClCompile Include="term25.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +161,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="term25.h" />
+    <ClInclude Include="term26.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

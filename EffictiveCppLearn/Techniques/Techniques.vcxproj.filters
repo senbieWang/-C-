@@ -24,12 +24,18 @@
     <ClCompile Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClCompile>
+    <ClCompile Include="term26.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="说明.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="term25.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="term26.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
