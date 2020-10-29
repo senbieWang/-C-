@@ -1,6 +1,7 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
+#include"FunctionObject.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+	SumObject sum(10,15);
+    std::cout << SumObject()(10,15)<<"Hello World!\n";
 }

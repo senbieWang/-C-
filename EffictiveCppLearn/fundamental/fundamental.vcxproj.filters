@@ -18,8 +18,16 @@
     <ClCompile Include="fundamental.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FunctionObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FunctionObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
