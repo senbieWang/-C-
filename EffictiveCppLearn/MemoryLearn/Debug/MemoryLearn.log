@@ -1,0 +1,4 @@
+﻿  MemoryLearn.cpp
+E:\mygithub\EffictiveCppLearn\MemoryLearn\MemoryLearn.cpp(45,46): warning C4291: “void *MyMemoryClass::operator new(size_t,void *)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存
+E:\mygithub\EffictiveCppLearn\MemoryLearn\MemoryLearn.cpp(13): message : 参见“MyMemoryClass::operator new”的声明
+  MemoryLearn.vcxproj -> E:\mygithub\EffictiveCppLearn\Debug\MemoryLearn.exe
