@@ -1,4 +1,5 @@
 #include "CPP2/myTemplates.h"
+#include "constexpr.h"
 #include <bitset>
 #include <tuple>
 #include <string>
@@ -8,6 +9,11 @@
 using namespace MyCPP2;
 int main() 
 {
+
+
+    TestConstexpr();
+
+
     MyCPP2::print(7.5,"Hello",std::bitset<16>(377),42);  
 
     //1、tuple
@@ -29,6 +35,8 @@ int main()
     int j{}; //初始值为0；
     int* p;  // 没有初始值
     int* q{}; //初始值为nullptr；
+
+
 
 
     return 0;

@@ -29,8 +29,8 @@ namespace  MyCPP2
 		print(args...);
 	}
 
+	//标准库   tuple就是基于该方式的定义
 
-	//tuple
 
 
 };

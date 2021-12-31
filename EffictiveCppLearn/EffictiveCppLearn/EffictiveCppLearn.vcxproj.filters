@@ -21,9 +21,15 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="constexpr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CPP2\myTemplates.h">
+      <Filter>头文件\CPP2</Filter>
+    </ClInclude>
+    <ClInclude Include="constexpr.h">
       <Filter>头文件\CPP2</Filter>
     </ClInclude>
   </ItemGroup>
