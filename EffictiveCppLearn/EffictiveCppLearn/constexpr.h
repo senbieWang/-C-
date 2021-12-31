@@ -32,7 +32,7 @@ void TestConstexpr()
     func(arraySize);    //可以编译通过，运行期求值
     //int arr[func(arraySize)]{0};  //无法编译通过，数组需要产量，编译期间无法求出常量表达式。
     
-    //判断某个 class 是否 具有const属性
+    //判断某个 class 是否 具有const属性  使用了常量表达式，在编译器计算类型
     typedef const T1  T1C;
     auto s1 = std::is_const<T1>::value;    // false
     auto ss = std::is_const<T1C>::value;   //true
