@@ -15,8 +15,13 @@ int main()
     MyCPP2::funtest(i1);
     MyCPP2::funtest("char");
     //2、类模板偏特化、全特化
-
-
+    MyCPP2::ATemp<std::string, float>::print("hel", 1.3);
+    MyCPP2::ATemp<int, float>::print(3,1.3);
+    int ss = 5; 
+    float yy= 2.3;
+    MyCPP2::ATemp<int*, float>::print(&ss, yy);
+    MyCPP2::ATemp<int*, float*>::print(ss, yy);
+    MyCPP2::ATemp<std::vector<int>, float*>::print(ss, &yy);
 
 
     TestConstexpr();

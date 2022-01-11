@@ -1,5 +1,6 @@
 #pragma once
 #include<iostream>
+#include<vector>
 namespace  MyCPP2 
 {
 	/***************************************************************
@@ -54,7 +55,49 @@ namespace  MyCPP2
 	/****************************************************************
 	3、类模板全特化、偏特化
 	*/
+	template<class T, class Y>
+	class ATemp 
+	{
+	public:
+		static void  print(const   T lh, const   Y rh)
+		{
+			std::cout << "T1" << "Y1" << std::endl;
+		}
+	};
 
+	//转换为绝对类型
+	template<>
+	class ATemp<int,float>
+	{
+	public:
+		static void  print(const   int lh, const  float rh)
+		{
+			std::cout << "T2" << "Y2" << std::endl;
+		}
+	};
+
+	//特化为指针，引用，const 类型
+	template<class T, class Y>
+	class ATemp<T*,Y*>
+	{
+	public:
+		static void  print(const  T lh, const  Y rh)
+		{
+			std::cout << "T3" << "Y4" << std::endl;
+		}
+	};
+
+
+	//特化为另一个模板
+	template<class T, class Y>
+	class ATemp <std ::vector<T>, Y>
+	{
+	public:
+		static void  print(const  T lh, const  Y rh)
+		{
+			std::cout << "T5" << "Y5" << std::endl;
+		}
+	};
 
 
 
